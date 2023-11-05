@@ -1,6 +1,9 @@
 # Go-Vue-Chat-Starter
 Vue-Go Chat App is a simple chat application built with Vue.js and Go, showcasing real-time communication using WebSocket technology. This starter repository provides a foundation for building chat applications and can be used as a learning resource or a starting point for your chat projects.
 
+![image](https://github.com/CoffeeeAtNight/Go-Vue-Chat-Starter/assets/98992091/058030b5-39c2-496e-afce-5138acbc6f41)
+
+
 ## Features
 
 - Real-time chat using WebSocket
