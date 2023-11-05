@@ -14,7 +14,7 @@ Vue-Go Chat App is a simple chat application built with Vue.js and Go, showcasin
 
 Before you begin, ensure you have met the following requirements:
 
-- [Go](https://golang.org/dl/) installed
+- [Go](https://golang.org/dl/) v1.18 installed
 - [Node.js](https://nodejs.org/) v18.18.2 and [npm](https://www.npmjs.com/get-npm) v9.8.1 installed
 - Basic knowledge of Go and Vue.js
 - A little knowledge about [PrimeVue]((https://primevue.org/))
@@ -42,15 +42,19 @@ When building for production please make sure to first execute:
 
 3. Start the Go backend
 
+From the project root:
+
  ```bash
    cd backend
+   go get github.com/gorilla/websocket
    go run main.go
    ```
 
 4. Start the Vue frontend
 
+From the project root:
+
  ```bash
-   cd ..
    cd frontend
    npm i
    npm run serve
