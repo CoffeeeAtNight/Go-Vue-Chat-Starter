@@ -42,23 +42,23 @@ When building for production please make sure to first execute:
 
 3. Start the Go backend
 
-From the project root:
-
- ```bash
-   cd backend
-   go get github.com/gorilla/websocket
-   go run main.go
-   ```
+  From the project root:
+  
+   ```bash
+     cd backend
+     go get github.com/gorilla/websocket
+     go run main.go
+     ```
 
 4. Start the Vue frontend
 
-From the project root:
-
- ```bash
-   cd frontend
-   npm i
-   npm run serve
-   ```
+  From the project root:
+  
+   ```bash
+     cd frontend
+     npm i
+     npm run serve
+     ```
 
 5. Open your web browser and access the chat application at http://localhost:8081.
 
