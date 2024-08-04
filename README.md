@@ -66,7 +66,7 @@ When building for production please make sure to first execute:
 5. Open your web browser and access the chat application at http://localhost:8081.
 
 ### Configuration
-- You can customize the WebSocket server address and port by modifying the .env file in the "frontend" directory. This file has to be created when first cloning the project.
+- You can customize the WebSocket server address and port by modifying the **.env** file in the "frontend" directory. This file has to be created when first cloning the project.
 
 ### Contributing
 Contributions are welcome! If you'd like to contribute to Vue-Go Chat App, please follow these steps:
